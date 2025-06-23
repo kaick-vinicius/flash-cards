@@ -1,3 +1,5 @@
+                @import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
 :root {
     --text-color: #DBE4EF;
     --card-front-color: #144480;
@@ -6,7 +8,7 @@
 
 body {
     background: url('img/bg-desktop.webp');
-    font-family: Bai Jamjuree;
+    font-family: "Overlock";
 }
 
 #container {
@@ -53,7 +55,7 @@ body {
 }
 
 .cartao__conteudo__pergunta p {
-    color: var(--text-color);
+    color: white;
     font-weight: 500;
 }
 
@@ -65,6 +67,11 @@ body {
 .cartao.active .cartao__conteudo {
     transform: rotateY(180deg);
 }
+
+/*O código HOVER é uma pseudoclasse que funciona ao passar o mouse*/
+/*.cartao:hover .cartao__conteudo {
+    transform: rotateY(180deg);
+}*/
 
 .cartao__conteudo__pergunta,
 .cartao__conteudo__resposta {
